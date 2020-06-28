@@ -1,0 +1,83 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+* {
+    margin:0;
+    padding:0;
+    border: 0;
+}
+body {
+    background: #A594F9;
+    font-family: 'Roboto', sans-serif;
+    color: #322E18;
+}
+header {
+    padding: 30px;
+    background: white;
+}
+header div{
+    text-align: center;
+}
+/* header div a{
+    color: #322E18;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 30px;
+    text-decoration: none;
+} */
+.links a{
+    color: #322E18;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 30px;
+    text-decoration: none;
+}
+/* header div a:hover {
+    color: #6633cc;
+    transition: color 200ms;
+} */
+.links a:hover {
+    color: #FF66B3;
+    transition: color 200ms;
+}
+
+#wrapper{
+    text-align: center;
+    padding: 30px;
+}
+#wrapper img{
+    border-radius: 50%;
+    border: 1px solid #E5D9F2;
+    margin-bottom: 30px;
+}
+#wrapper h1{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+}
+#wrapper h2{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+#wrapper ul{
+    list-style-type:none;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    font-style: italic;
+    padding-bottom: 8px;   
+}
+#wrapper p{
+    max-width: 800px;
+    margin: 32px auto;
+    font-size: 24px;
+    line-height: 34px;
+}
+#links-footer{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+#links-footer a{
+    text-decoration: underline;
+}
